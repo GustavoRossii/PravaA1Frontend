@@ -14,7 +14,7 @@ function TarefaForm() {
     setTarefa({ ...tarefa, [e.target.name]: e.target.value });
   };
 
-  const API_URL = 'http://localhost:5273'; // Ajuste esta porta se necessário
+  const API_URL = 'http://localhost:5273'; 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
